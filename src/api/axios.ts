@@ -5,7 +5,7 @@ import { AuthResponse } from "../types";
 import { getToken,  logout } from "../utils";
 
 const axiosConfig: AxiosRequestConfig = {
-  baseURL: `https://sweetdelivery2.herokuapp.com/rest`,
+  baseURL: `https://sweetdelivery.herokuapp.com/rest`,
 };
 
 const instance: AxiosInstance = axios.create(axiosConfig);
