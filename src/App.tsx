@@ -11,6 +11,7 @@ import { RecipeDetail } from "./pages/RecipeDetail";
 import { RecipesList } from "./pages/RecipesList";
 import { RegisterPage } from "./pages/RegisterPage";
 import { loadShoppingCart } from "./utils";
+import 'react-app-polyfill/stable';
 
 const App: React.FC = () => {
   console.log(loadShoppingCart());
