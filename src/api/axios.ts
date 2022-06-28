@@ -5,7 +5,7 @@ import { AuthResponse } from "../types";
 import { getToken,  logout } from "../utils";
 
 const axiosConfig: AxiosRequestConfig = {
-  baseURL: `https://sweetdelivery.herokuapp.com/rest`,
+  baseURL: `https://mycorsproxy-tuto.herokuapp.com/https://sweetdelivery.herokuapp.com/rest`,
 };
 
 const instance: AxiosInstance = axios.create(axiosConfig);
