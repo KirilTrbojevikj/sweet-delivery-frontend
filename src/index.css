@@ -1,7 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Used Google Fonts */
+font-family: 'Muli', sans-serif;
+font-family: 'Lobster', cursive;
+
 svg {
   display: inline-block;
+}
+
+#logo{
+  /* background-color: #f0c1fc;*/
+  background-image: url("/public/patternbg.svg");
+  /*background:radial-gradient(ellipse closest-side,
+  #d6effa, #d6effa 10%, #d6effa 50%, white);*/
+}
+
+.logo-holder{
+  text-align:center;
+
+}
+
+.logo-4 h3 {
+  padding-top: 100px;
+  margin-left: 50px;
+  font-size: 134px;
+  color: #4f46e4;
+  font-weight: 300;
+  line-height: 0.65;
+  font-family: 'Lobster', cursive;
+}
+
+.logo-4 h5 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 134px;
+  color: #4f46e4;
+  font-weight: 300;
+  line-height: 0.65;
+  font-family: 'Lobster', cursive;
+}
+
+.logo-4 p {
+  font-size: 20px;
+  color: #4f46e4;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Muli', cursive;
+  background:radial-gradient(rgba(211, 211, 211, 0.45),transparent);
 }
